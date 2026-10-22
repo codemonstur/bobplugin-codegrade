@@ -1,0 +1,18 @@
+include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-app-github
+plugin target/bobplugin-codegrade.jar
+
+name: codegrade
+version: 1
+enablePreview: false
+release: 17
+packaging: bob-plugin
+dependencies:
+  - project: ../bobthebuildtool
+    scope: provided
+  - repository: com.github.codemonstur:codegrade-core:0.2.0
+  - repository: com.github.codemonstur:jcli:2.0.0
+    scope: provided
+  - repository: junit:junit:4.13.2
+    scope: test
+
+test
