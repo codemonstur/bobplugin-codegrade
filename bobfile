@@ -1,6 +1,4 @@
 include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-app-github
-plugin target/bobplugin-codegrade.jar
-
 name: codegrade
 version: 1
 enablePreview: false
